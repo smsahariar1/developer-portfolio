@@ -32,6 +32,7 @@ section {
 .half-div img {
   width: 100%;
 }
+
 /* header start */
 header {
   background-image: url(../images/top-banner.png);
@@ -47,4 +48,11 @@ header {
   padding: 10px 40px;
   margin-top: 20px;
   border-radius: 8px;
+}
+
+/* dream section start  */
+.dream {
+  background-image: url(../images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
