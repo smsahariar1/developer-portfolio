@@ -89,3 +89,9 @@ header {
 .right {
   border-left: 10px solid blue;
 }
+
+/* footer start  */
+footer p {
+  color: gray;
+  text-align: center;
+}
