@@ -5,7 +5,8 @@
   margin: 0 auto;
 }
 p {
-  font-size: 20px;
+  font-size: 18px;
+  text-align: justify;
 }
 .heading-name {
   font-weight: 700;
@@ -16,7 +17,7 @@ p {
   color: orange;
 }
 .subtitle {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -26,11 +27,11 @@ section {
 }
 .half-div {
   width: 50%;
-  padding-left: 5%;
+  padding-left: 2%;
   padding-top: 5%;
 }
 .half-div img {
-  width: 100%;
+  width: 80%;
 }
 
 /* header start */
@@ -55,4 +56,36 @@ header {
   background-image: url(../images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+/* experience section start  */
+.experience-area {
+  background-image: url(../images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+.exp-div {
+  margin-top: 100px;
+  margin-left: 2%;
+  margin-right: 6%;
+  width: 35%;
+  padding: 14px 2%;
+  box-shadow: 10px 20px 10px gray;
+  border-radius: 10px;
+}
+.exp-div h1 {
+  font-size: 35px;
+  margin-bottom: 8px;
+  padding-top: 5px;
+}
+.exp-div h2 {
+  font-size: 22px;
+  color: orange;
+  margin-bottom: 8px;
+}
+.left {
+  border-left: 10px solid orange;
+}
+.right {
+  border-left: 10px solid blue;
 }
